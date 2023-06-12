@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="./mobile.css">
   <link rel="stylesheet" href="./tablet.css media=(min-width:768px)">
   <link rel="stylesheet" href="./pc.css media=(min-width:1200px)">
+
 </head>
 
 <body>
@@ -37,14 +38,19 @@
         <li>log in</li>
         <li>회원가입</li>
       </menu>
-      <span></span>
+      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+          <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+        </svg></a>
     </div>
     <div class="main-text">
       <h3>jeju's nature-friendly park</h3>
       <h1>hallimpark</h1>
     </div>
   </header>
+
   <main>
+
+    <!--------------- introduce ---------------->
     <div class="introduce">
       <h1>introduce hallimpark</h1>
       <div class="sub_text">
@@ -88,7 +94,9 @@
           </figcaption>
         </figure>
         <figure>
-          <img src="./images/gallery5.png" alt="돌하르방 이미지">
+          <div class="img">
+            <img src="./images/gallery5.png" alt="돌하르방 이미지">
+          </div>
           <figcaption>
             <p>theme:4<span>협재굴/쌍용굴</span></p>
           </figcaption>
@@ -116,9 +124,183 @@
         <img src="./images/flower4.png" alt="벚꽃 이미지">
       </div>
     </div>
+    <!---------------- /flowers ----------------->
+
+    <!---------------- history ---------------->
+    <div class="history">
+      <h5>history</h5>
+      <ul>
+        <li>1970</li>
+        <li>1982</li>
+        <li>1996</li>
+        <li>2010</li>
+      </ul>
+      <figure>
+        <img src="./images/history1.png" alt="개발의지 이미지">
+        <figcaption>
+          <h6>지역사회 개발 의지</h6>
+          <p>한림공원의 송봉규 회장은 제주도의 발전은 관광 산업이 열쇠라는 확신을 가지게 되었다.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="./images/history2.png" alt="사업 허가 이미지">
+        <figcaption>
+          <h6>조성 사업의 허가</h6>
+          <p>송봉규 회장은 1982년 한림도시공원 조성사업의 허가를 받았다.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="./images/history3.png" alt="재암 수석관 이미지">
+        <figcaption>
+          <h6>재암수석관 개관</h6>
+          <p>1991년도 수석, 광석, 화석을 수집하여 송봉규 회장은 재암수석관을개관(1996년)하였다.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="./images/history4.png" alt="새의 정원 이미지">
+        <figcaption>
+          <h6>새 정원 개장</h6>
+          <p>놀이공원 시설을 새가 있는 정원으로 새로 단장하여 2000년 1월에 개장하게 되었다.</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!---------------- /history --------------->
+
+    <!------------ contents --------------->
+    <div class="contents">
+      <h5>contents</h5>
+      <figure>
+        <img src="./images/contents1.png" alt="야자수카페 이미지">
+        <figcaption>야자수카페</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/contents2.png" alt="앵무새먹이체험 이미지">
+        <figcaption>야자수카페</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/contents3.png" alt="다화원휴게소 이미지">
+        <figcaption>야자수카페</figcaption>
+      </figure>
+    </div>
+    <!------------- /contents -------------->
+
+    <!--------------- news -------------->
+    <div class="news">
+      <div class="left_text">
+        <h5>한림공원의 다양한 소식</h5>
+        <ul>
+          <li>'정열의 꽃! 부겐빌레아' 2023년 부겐빌레아 축제 개최<span>2일전</span></li>
+          <li>한국청소년육성회 대표단 방문 (2023. 5. 24)<span>2023-05-24</span></li>
+          <li>제12차 재일제주인 돕기 특별모금 기부 언론보도(제민일보,헤드라인제주 2023. 5. 10)<span>2023-05-13</span></li>
+          <li>의인 김만덕 나눔 정신 확산 동참(제민일보 2023. 4. 25)<span>2023-05-07</span></li>
+          <li>송산섭 한림공원 대표, 외교부장관 표창(제민일보 2023. 4 .13)<span>2023-05-07</span></li>
+          <li>한림공원, 튤림축제 언론보도(제주의 소리, 제주일보, 연합뉴스, 한라일보)<span>2023-05-07</span></li>
+        </ul>
+        <a href="#">more</a>
+      </div>
+      <div class="right">
+        <h5>한림공원 이용안내</h5>
+        <table>
+          <thead>
+            <tr>
+              <th>시기</th>
+              <th>매표 개시</th>
+              <th>매표 마감</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>3월 ~ 5월</td>
+              <td>09:00</td>
+              <td>17:30</td>
+            </tr>
+            <tr>
+              <td>6월 ~ 8월</td>
+              <td>09:00</td>
+              <td>18:00</td>
+            </tr>
+            <tr>
+              <td>9월 ~ 10월</td>
+              <td>09:00</td>
+              <td>17:30</td>
+            </tr>
+            <tr>
+              <td>11월 ~ 2월</td>
+              <td>09:00</td>
+              <td>16:30</td>
+            </tr>
+          </tbody>
+        </table>
+        <ul>
+          <li>연중무휴</li>
+          <li>관람 소요 시간 : 약 1시간 30분</li>
+          <li>주차 : 무료</li>
+          <li>애견입장 : 7kg미만 소형견, 배변 봉투 지참, 목줄 착용 시 입장 가능</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-------------- /news ------------->
+
+    <!------------ location ------------>
+    <div class="location">
+      <h5>location</h5>
+      <div class="kakaomap">
+
+      </div>
+      <div class="text_box1">
+        <h6>네비게이션 검색</h6>
+        <ul>
+          <li>전화검색 : 064)796-0001</li>
+          <li>명칭검색 : 한림공원</li>
+          <li>주소검색 : 제주특별자치도 제주시 한림읍 한림로 300 (우. 63011)</li>
+          <li>주차무료</li>
+        </ul>
+      </div>
+      <div class="text_box2">
+        <h6>제주공항 출발</h6>
+        <ul>
+          <li>자동차 (약 50분)<span>1132도로(일주도로) → 한림 → 협재 → 한림공원</span></li>
+          <li>버스 (약 90분)<span>102번 급행버스 → 한림환승 정류장 → 202번 간선버스 → 한림공원</span></li>
+        </ul>
+      </div>
+      <div class="text_box3">
+        <h6>서귀포시 출발</h6>
+        <ul>
+          <li>자동차 (약 50분)<span>1132도로1132도로(일주도로) → 창천 → 1116도로 → 금악 → 명월 → 협재 →한림공원</span></li>
+          <li>버스 (약 90분)<span>102번 급행버스→ 신창 환승 정류장→ 202번 간선버스→ 한림공원</span></li>
+        </ul>
+      </div>
+    </div>
+    <!-------------- /location -------------->
 
   </main>
-  <footer></footer>
+  <footer>
+    <div class="footer_img">
+      <h1>Hallimpark with nature</h1>
+    </div>
+    <div class="footer_text">
+      <ul>
+        <li>한림공원</li>
+        <li>주소 제주특별자치도 제주시 한림로 300 | 전화번호 064-796-0000</li>
+        <li>이메일 winnerv401@gmail.com | 팩스번호 064-796-0000</li>
+        <li>사업자등록번호 616-81-00000 | 대표자 </li>
+      </ul>
+      <ul>
+        <li>한림공원 소개</li>
+        <li>테마9</li>
+        <li>365꽃세상</li>
+        <li>즐길거리</li>
+        <li>공원소식</li>
+      </ul>
+      <ul>
+        <li>이용약관</li>
+        <li>개인정보처리방침</li>
+        <li>포트폴리오 바로가기</li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
